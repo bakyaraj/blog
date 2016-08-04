@@ -2,5 +2,5 @@
 	'use strict';
 
 	angular
-	  .module('blog', ['common']);
+	  .module('blog', ['ui.router','common',]);
 })();

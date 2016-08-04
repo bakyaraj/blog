@@ -17,6 +17,10 @@
   ],
   "dependencies": {
     "angular": "^1.5.8",
-    "bootstrap": "^3.3.7"
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.1.0",
+    "lodash": "^4.14.1",
+    "font-awesome": "^4.6.3",
+    "angular-ui-router": "^0.3.1"
   }
 }
