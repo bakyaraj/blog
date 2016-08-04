@@ -1,0 +1,22 @@
+{
+  "name": "blog",
+  "description": "personal blog",
+  "main": "index.js",
+  "authors": [
+    "kasiriveni <kasiriveni@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "public/libs"
+  ],
+  "dependencies": {
+    "angular": "^1.5.8",
+    "bootstrap": "^3.3.7"
+  }
+}
