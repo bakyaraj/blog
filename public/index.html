@@ -19,15 +19,20 @@
   </head>
   <body>
     <h1></h1>
-    <div ng-controller=" CommonController as vm">
+   <!--  <div ng-controller=" CommonController as vm">
     	{{vm.title}}
       {{name}}
       <hr>
       {{vm.logoname}}
-    </div>
+    </div> -->
 
     <div class="container">
-    	<!-- <div ui-view></div> -->
+      <a ui-href="home">Home</a>
+      <a ui-href="about">About</a>
+      <a ui-href="downloads">Downloads</a>
+      <a ui-href="contact">Contact</a>
+      
+    	<div ui-view></div>
     </div>
     <!-- libs -->
     <script src="libs/jquery/dist/jquery.js"></script>
@@ -46,5 +51,17 @@
     <script src="app/common/common.js"></script>
     <script src="app/common/controller/CommonCtrl.js"></script>
     <script src="app/common/services/CommServices.js"></script>
+
+    <!-- about -->
+    <script src="app/about/about.js"></script>
+    <script src="app/about/controller/AboutCtrl.js"></script>
+    <script src="app/about/services/AboutService.js"></script>
+
+     <!-- contact -->
+    <script src="app/contact/contact.js"></script>
+    <script src="app/contact/controller/ContactCtrl.js"></script>
+    <script src="app/contact/services/ContactService.js"></script>
+
+    
   </body>
 </html>
